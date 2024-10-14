@@ -1,0 +1,67 @@
+<!Doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<meta charset="utf-8">
+		<title>Registro</title>
+	</head>
+	<body background="fondo.jpg">
+
+		<header>
+			<form method="post" id="login">
+				<label>User:</label>
+				<input class="inputsuperior" type="text" name="password" required="required" maxlength="12"/>
+				<label>Pass:</label>
+				<input class="inputsuperior" type="password" name="password" required="required" maxlength="12"/>
+				<input type="submit" name="login" value="login" />
+			</form>
+			<h1>Camaro ss</h1>
+		</header>
+
+		<nav>
+			<ul>
+				<li><a href="iniciocamaross.html">Inicio</a></li>
+				<li><a href="novedades.html">Novedades</a></li>
+				<li><a href="http://es.chevrolet.com/performance/camaro-sports-car">Catálogo</a></li>
+				<li><a href="registro.html">Registro</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+		<div><h2  class="h5novedades">Registro</h2></div>
+		<form id="registro"><br>
+			<label class="labelregistro">Nombre:</label>
+			<input type="text" name="nombre" placeholder="Ingrese su nombre" required="required" maxlength="12"><br>
+			<label class="labelregistro">Apellidos:</label>
+			<input type="text" name="apellidos" placeholder="Ingrese sus apellidos" required="required" maxlength="18">
+			<span>(máximo 18 carácteres)</span><br>
+			<label class="labelregistro">Nickname:</label>
+			<input type="text" name="nick" placeholder="Ejemplo: Arayl" required="required" pattern="^.{4,12}$" maxlength="12">
+			<span>(entre 4 y 12 carácteres)</span><br>
+			<label class="labelregistro">Email:</label>
+			<input type="email" name="Email" required="required" placeholder="ejemplo@correo.com"><br>
+			<label class="labelregistro">Contraseña:</label>
+			<input type="password" name="pwd" placeholder="Nueva Contraseña" pattern="^.{6,12}$" maxlength="12" required="required">
+			<span>(entre 6 y 12 carácteres)</span><br>
+			<label class="labelregistro">Repetir contraseña:</label>
+			<input type="password" name="pwd" placeholder="Repetir contraseña" pattern="^.{6,12}$" maxlength="12" required="required"><br>
+			<label class="labelregistro">N. teléfono:</label>
+			<input type="tel" name="teléfono" placeholder="Número móvil"><br>
+			<label class="labelregistro">Edad de nacimiento:</label>
+			<input type="month" name="Edad"><br>
+			<label class="labelregistro">Color favorito para tu coche?</label>
+			<input type="color" name="color favorito"><br>
+			<label class="labelregistro">Sexo:</label>
+			<select id="Sexo">
+				<option>Hombre</option>
+				<option>Mujer</option>
+				<option>Altres</option>
+				<option>Prefiero no decirlo</option>
+			</select><br>
+		<div class="centrado">
+			<input type="submit" name="Enviar" id="registrar">
+		</div>
+		</form>
+	
+	
+			
+
